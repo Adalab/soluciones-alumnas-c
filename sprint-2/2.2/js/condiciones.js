@@ -1,6 +1,8 @@
 'use strict';
 
-var n = 15;
+var n = prompt('Introduce un número');
+
+n =  parseInt(n);
 
 if ( n === 0) {
   alert('El número es 0')

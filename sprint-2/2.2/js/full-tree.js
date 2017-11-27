@@ -1,6 +1,6 @@
 'use strict';
 
-var treeHeight = prompt('¿Cómo de alto queremos el árbol?');
+var treeHeight = prompt('¿Cuántas líneas tendrá nuestro árbol?');
 var treeChar = '▲';
 var treeLine = '';
 var treeTrunk = '|';
