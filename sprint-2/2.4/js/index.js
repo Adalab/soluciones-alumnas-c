@@ -4,7 +4,7 @@ var counter = {
   initialValue: 0,
   currentValue: 1,
   max: 10,
-  min: 0,
+  min: 0
 };
 
 //Mostramos el valor actual
