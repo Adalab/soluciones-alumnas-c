@@ -1,3 +1,5 @@
+'use strict';
+
 // Suma
 
 function sum(a, b) {

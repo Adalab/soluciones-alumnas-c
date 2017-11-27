@@ -1,3 +1,5 @@
+'use strict';
+
 // Ejercicio: Crear un contador
 
 var counter = {
