@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 3 - Sesión 4.2 - Sprint 4</title>
+</head>
+<body>
+  <h1>Sesión 4.2 Clases ES6</h1>
+  <h2>EJERCICIO 3:</h2>
+  <p>Vamos a mejorar ¡aún más! nuestra calculadora geométrica sencilla. En el programa definiremos la clase Polygon, Square y Triangle para polígolos regulares (todos sus lados miden lo mismo). Ya os imagináis por dónde van los tiros: las clases Square y Triangle serán subclases de Polygon. La clase Polygon tendrá, al menos:</p>
+  <ul>
+    <li>Un atributo para el número de lados (numberOfSides)</li>
+    <li>Dos atributos más: para la longitud de la base (base) y de la altura (height)</li>
+    <li>Un método para calcular el perímetro (perimeter) (multiplicar la longitud del lado base por el número de lados)</li>
+    <li>Un método para calcular el área (area) (elevar al cuadrado el lado)</li>
+  </ul>
+  <p>La subclase Square tendrá:</p>
+  <ul>
+    <li>Un atributo lado (side) igual a la base</li>
+    <li>Un constructor que recibirá exclusivamente la longitud del lado</li>
+  </ul>
+  <p>La subclase Triangle tendrá:</p>
+  <ul>
+    <li>Un constructor que recibirá base y altura</li>
+    <li>Un método area() que sobrescibirá al de la clase base. Devolverá la mitad de lo que devuelva llamar al área de la clase base (super.area() / 2)</li>
+  </ul>
+  <p>Crearemos dos instancias: un cuadrado de 4 de lado y un triángulo de 4 de base y 3 de altura. Llamaremos a los dos métodos en todas las instancias.</p>
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
