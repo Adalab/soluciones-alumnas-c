@@ -1,11 +1,10 @@
 'use strict';
 
 class Square {
-  // Método del perímetro, con dos parámetros:
+  // Método del perímetro, con un parámetros:
   // - Lado
-  // - Número de lados
-  perimeter(side, numberOfSides) {
-    return side * numberOfSides;
+  perimeter(side) {
+    return side * 4;
   }
 
   // Método del área, con un parámetro:
@@ -21,7 +20,7 @@ class Square {
 const square9 = new Square();
 
 // Cálculo del perímetro (9 de lado y 4 lados)
-console.log( `El perímetro de mi cuadrado de 9 m. de lado es ${square9.perimeter(9,4)} m.`);
+console.log( `El perímetro de mi cuadrado de 9 m. de lado es ${square9.perimeter(9)} m.`);
 
 // Cálculo del área (9 de lado)
 console.log( `El área de mi cuadrado de 9 m. de lado es ${square9.area(9,)} m².`);
