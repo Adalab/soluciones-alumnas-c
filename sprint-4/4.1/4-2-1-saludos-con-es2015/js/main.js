@@ -1,5 +1,5 @@
 'use strict';
 
-const NAME = prompt('¿Cómo te llamas?');
+var name = prompt('¿Cómo te llamas?');
 
-alert(`Hola, ${NAME}, encantada de conocerte`);
+alert(`Hola, ${name}, encantada de conocerte`);
