@@ -16,7 +16,7 @@ sprint-X/
 |  |- X-2-2-nombre-del-ejercicio/
 |  |  |- js/
 |  |  |  `- main.js
-|  |  `- indes.html 
+|  |  `- indes.html
 |  `- X-2-3-nombre-del-ejercicio/
 `- X.3/
 ```
@@ -36,5 +36,7 @@ En la carpeta del sprint X habrá una carpeta por sesión (por ejemplo X.2 para 
 - [x] Sesión 2.6
 
 ### Sprint 3
+- [ ] Sesión 3.9
 
 ### Sprint 4
+- [X] Sesión 4.2 
