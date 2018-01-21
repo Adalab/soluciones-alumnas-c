@@ -12,7 +12,6 @@ class Polygon{
   }
   area(){
     return this.base * this.height;
-    //return Math.pow(this.base,2);  Otra solución
   }
 }
 class Square extends Polygon {
