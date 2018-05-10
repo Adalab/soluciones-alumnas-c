@@ -32,6 +32,32 @@
   ul.news li.news__item a.news__item-link {
     color: green;
   }
+
+  Si no pudieramos modificar los estilos existentes, tendriamos que aumentar la especifidad.
+  Podriamos hacerlo de multiples maneras, algunos ejemplos:
+  
+  ul.news li.news__item a.news__item-link.news__item-link {
+    color: red;
+  }
+
+  o
+
+  .news__item-link {
+    color: red !important;
+  }
+
+  o
+
+  Ojo: esta opción solo funcionaría sí, 
+  atendiendo al orden del código, 
+  la añadieramos después de las ya existentes
+  ul.news li.news__item a.news__item-link-red {
+    color: red;
+  }
+
+  NB* Aumentar demasiado la especificidad provoca que
+  futuras modificaciones sean cada vez más complejas,
+  por eso es una situación que intentamos evitar.
 */
 
 /*
