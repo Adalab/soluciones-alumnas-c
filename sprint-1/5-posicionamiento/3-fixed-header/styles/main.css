@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.main__header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  height: 80px;
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  background-color: orange;
+}
+
+.main {
+  position: relative;
+  top: 80px;
+  z-index: 1;
+  padding-right: 16px;
+  padding-left: 16px;
+}
