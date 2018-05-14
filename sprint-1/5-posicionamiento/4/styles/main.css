@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.conatiner {
+  position: relative;
+}
+
+.container__item {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  padding: 30px;
+}
+
+.container__item--1 {
+  background: purple;
+  top: 50px;
+  left: 100px;
+}
+
+.container__item--2 {
+  background: orange;
+  right: 150px;
+  bottom: 320px;
+}
+
+.container__item--3 {
+  background: pink;
+  left: 180px;
+  bottom: 240px;
+}
