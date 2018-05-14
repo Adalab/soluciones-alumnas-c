@@ -1,0 +1,58 @@
+/*
+ * Asignamos un altura de 100%
+ * al html y al body
+ * para que ocupen todo el alte de la ventana del navegador
+ */
+
+html,
+body {
+  height: 100%;
+}
+/*
+ * En el body
+ * añadimos la prodiedad display con valor flex
+ * y la propiedad flex-direction con valor column
+ * para que el eje principal sea vertical
+ */
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+/*
+ * A la cabecera y al pie
+ * le añadimos un alto fijo
+ * y la propiedad flex-shrink con valor 0
+ * para que no encojan
+ */
+
+.main__header,
+.main__footer {
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.main__header {
+  background-color: #d8d8d8;
+}
+
+.main__footer {
+  background-color: #f5a623;
+}
+
+/*
+ * Al contenedor principal
+ * le añadimos un alto fijo
+ * le asignamos la propiedad flex-grow con valor 1
+ * para que crezca, en este caso
+ * ocupando todo el espacio
+ * menos el ocupado por la cabecera y el pie
+ */
+
+.main {
+  flex-grow: 1;
+  background-color: #aeacaf;
+}
