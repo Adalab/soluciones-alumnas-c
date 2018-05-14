@@ -1,0 +1,30 @@
+/*
+ * Creamos un contenedor flex
+ * y a su propiedad flex-wrap
+ * le asignamos el valor wrap de manera que,
+ * cuando la suma de los tamaños de sus items
+ * supere el tamaño del contenedor
+ * estos romperan el eje principal
+ * saltando de linea o columna
+
+ .list {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ */
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  border: 1px solid black;
+}
+
+.list__item {
+  width: 200px;
+  height: 100px;
+  background-color: #f5dff9;
+  border: 2px solid #c433e3;
+}
