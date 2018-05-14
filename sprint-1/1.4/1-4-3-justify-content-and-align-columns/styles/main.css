@@ -1,0 +1,57 @@
+/*
+ * PARTE 1:
+ * Añadimos un contenedor flex
+ * con 100px de alto
+
+ .nav {
+   display: flex;
+   height: 100px;
+ }
+
+ * PARTE 2: Explicada en index.html de este ejercicio
+
+ * PARTE 3
+ * Añadimos al contenedor flex
+ * padding laterales de 20px
+ * y a su propiedad justify-content le asignamos
+ * el valor space-between
+ * para que sus items se distribuyan a lo largo el eje principal
+ * con el mismo espacio entre ellos
+ * colocandose el primero al inicio del eje principal
+ * y el último al final del eje principal
+
+  .nav {
+   display: flex;
+   height: 100px;
+   justify-content: space-between;
+ }
+
+ * PARTE 4
+ * Añadimos al contenedor flex
+ * la propiedad align-items con el valor center
+ * para que sus hijos se centren en el eje transversal(cross axis)
+
+  .nav {
+   display: flex;
+   height: 100px;
+   align-items: center;
+ }
+
+ */
+
+body {
+  margin: 0;
+}
+
+.nav {
+  box-sizing: border-box;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: 0 20px;
+  margin: 0;
+  color: black;
+}
