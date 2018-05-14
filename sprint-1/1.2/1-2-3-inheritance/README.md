@@ -1,12 +1,5 @@
-<!--
-  Este archivo está escrito en Markdown
-  Para obtener más info acerca de qué es Markdown:
-
-  https://www.youtube.com/watch?v=TtSWo2nbzAk&t=199s
--->
-
-# Ejercicio para practicar la herencia en CSS
-
+* * *
+EJERCICIO 3
 
 El color es una de la propiedades que se heredan así que si tenemos esta estructura:
 ```html
@@ -26,3 +19,4 @@ El color es una de la propiedades que se heredan así que si tenemos esta estruc
 </article>
 ```
 y al `<aside>` con clase `.links` le aplicamos una regla que ponga el texto rojo, ¿qué quedará en rojo?
+* * *
