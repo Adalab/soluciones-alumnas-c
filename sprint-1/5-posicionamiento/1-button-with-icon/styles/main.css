@@ -1,0 +1,12 @@
+.button-rate {
+  position: relative;
+  font-size: 24px;
+  padding: 8px 8px 8px 40px;
+}
+
+.button-rate__star {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  margin-top: -12px;
+}
