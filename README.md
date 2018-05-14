@@ -10,15 +10,15 @@ Para ello hay que hacer un fork del repositorio, subir nuestro código, y desde 
 La estructura de un ejercicio de un sprint es la siguiente:
 ```
 sprint-X/
-|- X.1/
-|- X.2/
-|  |- X-2-1-nombre-del-ejercicio/
-|  |- X-2-2-nombre-del-ejercicio/
+|- 1-nombre-de-la-seccion/
+|- 2-nombre-de-la-seccion/
+|  |- 1-nombre-del-ejercicio/
+|  |- 2-nombre-del-ejercicio/
 |  |  |- js/
 |  |  |  `- main.js
 |  |  `- indes.html
-|  `- X-2-3-nombre-del-ejercicio/
-`- X.3/
+|  `- 3-nombre-del-ejercicio/
+`- 3-nombre-de-la-seccion//
 ```
 En la carpeta del sprint X habrá una carpeta por sesión (por ejemplo X.2 para la sesión 2 del sprint X) y, dentro, una carpeta por ejercicio de la sesión.
 
