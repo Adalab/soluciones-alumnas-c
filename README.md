@@ -26,6 +26,7 @@ En la carpeta del sprint X habrá una carpeta por sesión (por ejemplo X.2 para 
 ### Sprint 1
 - [x] Sesión 1.1
 - [x] Sesión 1.2
+- [x] Sesión 1.4 (partial)
 
 ### Sprint 2
 - [x] Sesión 2.1
@@ -39,4 +40,4 @@ En la carpeta del sprint X habrá una carpeta por sesión (por ejemplo X.2 para 
 - [ ] Sesión 3.9
 
 ### Sprint 4
-- [X] Sesión 4.2 
+- [X] Sesión 4.2
