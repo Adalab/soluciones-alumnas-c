@@ -5,6 +5,9 @@
   https://www.youtube.com/watch?v=TtSWo2nbzAk&t=199s
 -->
 
-# Tabla con el menú semanal
+* * *
+EJERCICIO 1
 
 Hacer una tabla con la comida de cada día de la semana usando `<th>`.
+
+* * *
