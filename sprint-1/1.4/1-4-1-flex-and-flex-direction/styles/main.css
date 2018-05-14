@@ -1,0 +1,89 @@
+/*
+ * PARTE 1:
+ * Creamos dos listas ordenadas
+ * cada una con:
+ * - un ancho y un alto de 500px,
+ * - 6 items
+ * y asignamos a su propiedad display el valor flex
+
+.list-vertical,
+.list-horizontal {
+	display: flex;
+  width: 500px;
+	height: 500px;
+}
+
+ * PARTE 2:
+ * ------
+ * Para distribuir los items de
+ * un contenedor flex
+ * en horizontal (a lo largo de una fila)
+ * añadimos al contenedor la propiedad
+ * flex-direction: row
+
+.list-horizontal {
+	flex-direction: row;
+}
+
+ * ------
+ * Para distribuir los items de
+ * un contenedor flex
+ * en vertical (a lo largo de una columna)
+ * añadimos al contenedor la propiedad
+ * flex-direction: column
+
+.list-vertical {
+	flex-direction: column;
+}
+
+ * PARTE 3:
+ * ------
+ * El eje principal (o main-axis)
+ * del contenedor .list-horizontal es: horizontal (row)
+ * de manera que sus items
+ * se dispondrán a lo largo de la fila,
+ * de izquierda a derecha
+ * ------
+ * El eje-principal
+ * de la lista .list-vertical es: vertical (column)
+ * de manera que sus items
+ * se dispondrán a lo largo de la columna,
+ * de arriba a abajo
+ */
+
+/* BONUS 1: alineado las listas
+ * Añadimos un contenedor .lists que contendra a ambas listas
+ * le asignamos a su propiedad display el valor flex.
+ * Por defecto (initial) el valor de flex-direction es row
+ * sus items se distribuiran de izquierdaa derecha
+ */
+
+.lists {
+  display: flex;
+}
+
+.list-horizontal,
+.list-vertical {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  list-style: none;
+  padding: 0;
+  margin: 8px;
+  border: 1px solid black;
+}
+
+.list-horizontal__item,
+.list-vertical__item {
+  padding: 8px;
+  background-color: #f5dff9;
+  border: 1px solid #c433e3;
+}
+
+.list-horizontal {
+  flex-direction: row;
+}
+
+.list-vertical {
+  flex-direction: column;
+}
