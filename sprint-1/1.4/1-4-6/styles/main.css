@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0.4rem 0;
+}
+
+.main__container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main__header,
+.main__footer {
+  flex-basis: 100%;
+}
+
+.main__header {
+  background-color: #fe6144;
+}
+
+.main__footer {
+  background-color: #90ee90;
+}
+
+.main__aside-1,
+.main__aside-2 {
+  flex-grow: 1;
+}
+
+.main__aside-1 {
+  background-color: #ffd700;
+}
+
+.main__aside-2 {
+  background-color: #ff68b5;
+}
+
+#main {
+  flex: 3 0;
+  padding: 16px 8px;
+  background-color: #01bfff;
+}
+
+.center-on-main-axis {
+  display: flex;
+  justify-content: center;
+}
