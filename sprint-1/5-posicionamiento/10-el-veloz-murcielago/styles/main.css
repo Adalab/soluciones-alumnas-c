@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  color: #666666;
+  border: 8px solid black;
+}
+
+.article {
+  width: 100%;
+  max-width: 600px;
+  margin: 106px auto 0;
+  padding: 0 16px;
+}
+
+.article__author {
+  display: inline-block;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-style: normal;
+  text-decoration: none;
+  color: #666666;
+}
+
+.article__title {
+  margin: 0 0 32px;
+  font-size: 32px;
+}
+
+.article_paragraph {
+  margin: 0 0 27px;
+  font-size: 18px;
+}
+
+.article__more-info-link {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-left: -16px;
+  color: #629eed;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
