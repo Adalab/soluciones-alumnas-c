@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+
+.text {
+  width: 86%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
