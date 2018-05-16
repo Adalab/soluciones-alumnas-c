@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.web-techs__article {
+  padding: 16px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.web-techs__title {
+  font-size: 32px;
+}
+
+.web-techs__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.web-techs-list__item {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: help;
+  text-decoration: underline;
+}
+
+.web-techs-list__item-tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 16px);
+  z-index: 1;
+  display: none;
+  width: 400px;
+  height: 200px;
+  background: white;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+}
+
+.web-techs-list__item:hover
+.web-techs-list__item-tooltip {
+  display: block;
+}
+
+.web-tech {
+  padding: 16px;
+}
+
+.web-tech__title {
+  font-size: 24px;
+}
