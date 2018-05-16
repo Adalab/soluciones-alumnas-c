@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: white;
+  color: black;
+  border-top: 16px solid #0D77A9;
+}
+
+.main-container {
+  max-width: 960px;
+  padding: 0 16px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-footer {
+  border-top: 8px solid #fbba0b;
+  padding: 16px;
+}
+
+.company-name {
+  margin: 0;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.social__item {
+  margin: 0 4px;
+}
+
+.social__item .fa {
+  color: #EB4E19;
+}
+
+.cookies-policy-advice {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  height: auto;
+  padding: 8px;
+  background: #b0ecd1;
+  border: 3px solid #5FC195;
+  border-radius: 6px;
+}
+
+.cookies-policy-advice__link {
+  color: black;
+}
