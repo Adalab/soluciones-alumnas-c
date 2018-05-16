@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main__container {
+  margin: 0 20px;
+}
+
+.main__title {
+  font-size: 32px;
+}
+
+.main__paragraph {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media all and (min-width: 768px) {
+  .main__container {
+    margin: 30px 40px 0;
+  }
+
+  .main__title {
+    font-size: 28px;
+  }
+
+  .main__paragraph {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media all and (min-width: 1140px) {
+  .main__container {
+    margin: 190px auto 0;
+    max-width: 750px;
+  }
+
+  .main__title {
+    font-size: 42px;
+  }
+
+  .main__paragraph {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
