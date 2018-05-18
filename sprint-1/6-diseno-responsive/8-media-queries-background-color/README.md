@@ -5,7 +5,7 @@
   https://www.youtube.com/watch?v=TtSWo2nbzAk&t=199s
 -->
 
-* * *
+***
 EJERCICIO 8:
 
 Hacer una web que, en función del ancho de la ventana del navegador, cambie su color de fondo:
@@ -13,4 +13,4 @@ Hacer una web que, en función del ancho de la ventana del navegador, cambie su 
 - Si el tamaño de la ventana está entre 480px y 768px que tenga el fondo amarillo
 - Si el tamaño de la ventana es mayor de 768px que tenga el fondo verde
 
-* * *
+***

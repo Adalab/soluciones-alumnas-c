@@ -5,7 +5,7 @@
   https://www.youtube.com/watch?v=TtSWo2nbzAk&t=199s
 -->
 
-* * *
+***
 EJERCICIO 7:
 
 Vamos a hacer algo más "real". En un html tendremos un contenedor con:
@@ -30,4 +30,4 @@ Vamos a empezar con el CSS de móvil e iremos ajustando los estilos según dispo
 	1. Nuestro contenedor tendrá 190px de margen superior y margen automático a cada lado, con un ancho máximo de 750px
 	2. El título estará en negrita y a 42px
 	3. El texto de los párrafos estará a 24px con un interlineado de 32px
-* * *
+***
