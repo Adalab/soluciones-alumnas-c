@@ -1,0 +1,31 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 2em;
+}
+.download {
+  display: block;
+  text-decoration: none;
+  color: #666;
+  border-bottom: 1px solid #ddd;
+  padding: 0 0 5px;
+  position: relative;
+  padding-right: 60px;
+}
+.download:hover {
+  color: blue;
+}
+.download__type {
+  background: #ccc;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 4px;
+  color: white;
+  font-size: .7em;
+  text-transform: uppercase;
+  padding: 2px 4px;
+}
+.download--pdf .download__type {
+  background: #FB341B;
+}
